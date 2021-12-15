@@ -1,6 +1,8 @@
 // Descrizione:
 // Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+
+
 // Bonus:
 // In una cartella bonus:
 // Inseriamo un input per visualizzare in pagina un testo inserito da un utente.
@@ -11,8 +13,14 @@ var app = new Vue({
     el: '#app',
     data: {
       message: 'Hello Vue!',
-      messageOne: "Welcome to Vue JS, mo sarà un casino, benvenuto",
+
+      messageOne: "Welcome to Vue JS, benvenuto",
 
       imgUrl: "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg",
-    }
+
+    },
+
 })
+
+
+
